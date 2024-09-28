@@ -1,0 +1,5 @@
+{
+  "obfuscate": "true",
+  "outputKey": "this-calendar-is-obfuscated.ics",
+  "verbose": "true"
+}

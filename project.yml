@@ -1,0 +1,10 @@
+packages:
+  - name: calendar
+    functions:
+      - name: combine
+        runtime: nodejs:18
+        environment:
+          SPACES_KEY: "${SPACES_KEY}"
+          SPACES_SECRET: "${SPACES_SECRET}"
+          CALENDAR_URLS: "${CALENDAR_URLS}"
+          BUCKET_NAME: "${BUCKET_NAME}"
