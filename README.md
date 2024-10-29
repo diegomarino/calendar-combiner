@@ -18,13 +18,15 @@ This project is a DigitalOcean Function that combines multiple iCal calendars, o
 ## Setup
 
 1. Clone this repository:
-   ```
+
+   ```bash
    git clone https://github.com/diegomarino/calendar-combiner.git
    cd calendar-combiner
    ```
 
 2. Install dependencies:
-   ```
+
+   ```bash
    npm install
    ```
 
@@ -42,12 +44,14 @@ This project is a DigitalOcean Function that combines multiple iCal calendars, o
 ## Deployment
 
 1. Make sure you're logged in to DigitalOcean CLI:
-   ```
+
+   ```bash
    doctl auth init
    ```
 
 2. Deploy the function:
-   ```
+
+   ```bash
    doctl serverless deploy .
    ```
 
@@ -55,7 +59,7 @@ This project is a DigitalOcean Function that combines multiple iCal calendars, o
 
 Invoke the function using the DigitalOcean CLI:
 
-```
+```bash
 doctl serverless functions invoke calendar/combine --param-file .payload
 ```
 
